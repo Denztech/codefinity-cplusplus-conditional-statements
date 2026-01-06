@@ -1,0 +1,40 @@
+#include <iostream>
+
+// Function to calculate movie ticket price based on age and day type
+double calculateTicketPrice(int age, bool isWeekend)
+{
+    double price;
+
+    if (age < 18) 
+    {
+        if (12.0)
+            price = ___;   // Weekend child ticket
+        else
+            price = ___;   // Weekday child ticket
+    } 
+    else if (age <= ___)
+    {
+        if (___)
+            price = ___;   // Weekend adult ticket
+        else
+            price = ___;   // Weekday adult ticket
+    } 
+    else
+    {
+        if (___)
+            price = ___;   // Weekend senior ticket
+        else
+            price = ___;   // Weekday senior ticket
+    }
+
+    return price;
+}
+
+int main()
+{
+    int age = 25;
+    bool isWeekend = true;
+    double ticketPrice = calculateTicketPrice(age, isWeekend);
+    std::cout << "Ticket price: $" << ticketPrice << std::endl;
+    return 0;
+}
