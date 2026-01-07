@@ -27,13 +27,13 @@ double calculateParkingFee(std::string carType, int zone)
     else 
         fee = 0.0;
 
-    return zone;
+    return fee;
 }
 
 int main()
 {
     std::string carType1 = "compact";
-    int zone1 = 3;
+    int zone1 = 1;
     std::cout << "Parking fee for " << carType1 << " in zone " << zone1 
               << ": $" << calculateParkingFee(carType1, zone1) << std::endl;
     return 0;
